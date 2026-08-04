@@ -9,3 +9,4 @@ dist
 # Internal sales material - never push to the public repo
 slideshow.md
 pitch/
+Background.md
