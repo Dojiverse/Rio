@@ -1,0 +1,11 @@
+node_modules
+dist
+.env
+.env.local
+*.log
+.DS_Store
+.claude/
+
+# Internal sales material - never push to the public repo
+slideshow.md
+pitch/
