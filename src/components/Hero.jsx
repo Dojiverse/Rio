@@ -42,7 +42,14 @@ export default function Hero() {
 
       {/* Content — show, don't tell: just the mark and the CTA */}
       <div className="relative z-10 flex h-full flex-col items-center justify-center px-5 text-center">
-        <h1 className="display neon-text text-[clamp(4rem,16vw,11rem)] leading-none">Rio Cantina</h1>
+        <h1 className="mb-2">
+          {/* The venue's actual sign, transparent PNG */}
+          <img
+            src={`${import.meta.env.BASE_URL}Logo.png`}
+            alt="Rio Cantina"
+            className="mx-auto w-[min(78vw,620px)] drop-shadow-[0_0_45px_rgba(237,38,71,0.35)]"
+          />
+        </h1>
         <p className="display mb-10 text-xl tracking-[0.35em] text-white/80 sm:text-2xl">
           {t('footer.tagline')}
         </p>

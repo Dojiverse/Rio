@@ -9,7 +9,12 @@ export default function Footer() {
       <div className="mx-auto grid max-w-7xl grid-cols-1 gap-10 px-5 py-14 sm:grid-cols-2 sm:px-8 lg:grid-cols-4">
         {/* Brand */}
         <div>
-          <p className="display neon-text text-4xl">Rio Cantina</p>
+          <p className="display text-4xl">
+            <span className="glow-red">R</span>
+            <span className="glow-yellow">i</span>
+            <span className="glow-teal">o</span>
+            <span className="ml-2 text-white">Cantina</span>
+          </p>
           <p className="display mt-1 text-sm tracking-[0.25em] text-muted">{t('footer.tagline')}</p>
         </div>
 

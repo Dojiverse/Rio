@@ -7,10 +7,11 @@ export default function EventCards() {
 
   return (
     <section id="events" className="section-pad scroll-mt-16">
-      <h2 className="display neon-text mb-2 text-center text-6xl sm:text-7xl">
+      <h2 className="display glow-yellow mb-2 text-center text-6xl sm:text-7xl">
         {t('events.header')}
       </h2>
-      <p className="mb-12 text-center text-lg text-muted">{t('events.sub')}</p>
+      <p className="mb-6 text-center text-lg text-muted">{t('events.sub')}</p>
+      <div className="divider-tropical mb-12" />
 
       <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
         {events.map((ev) => (
@@ -30,7 +31,7 @@ export default function EventCards() {
                 loading="lazy"
                 className="relative h-full w-full object-contain transition-transform duration-500 group-hover:scale-105"
               />
-              <span className="display absolute left-4 top-4 rounded-full bg-ink/80 px-4 py-1.5 text-lg text-neon backdrop-blur">
+              <span className="display absolute left-4 top-4 rounded-full bg-ink/80 px-4 py-1.5 text-lg text-rio-yellow backdrop-blur">
                 {ev.date}
               </span>
             </div>

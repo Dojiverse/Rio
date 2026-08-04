@@ -30,7 +30,7 @@ export default function Tables() {
 
   return (
     <div className="section-pad pt-28">
-      <h1 className="display neon-text mb-2 text-center text-6xl sm:text-7xl">{t('tables.header')}</h1>
+      <h1 className="display glow-teal mb-2 text-center text-6xl sm:text-7xl">{t('tables.header')}</h1>
       <p className="mb-10 text-center text-lg text-muted">{t('tables.sub')}</p>
 
       {/* Night picker */}

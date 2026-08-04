@@ -56,8 +56,10 @@ export default function Navbar() {
     <header className="nav-blur fixed inset-x-0 top-0 z-50 border-b border-line/60">
       <nav className="mx-auto flex h-16 max-w-7xl items-center justify-between px-5 sm:px-8">
         {/* Brand */}
-        <Link to="/" className="display neon-text text-3xl leading-none" onClick={() => setOpen(false)}>
-          Rio
+        <Link to="/" className="display text-3xl leading-none" onClick={() => setOpen(false)}>
+          <span className="glow-red">R</span>
+          <span className="glow-yellow">i</span>
+          <span className="glow-teal">o</span>
         </Link>
 
         {/* Desktop links */}

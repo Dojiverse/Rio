@@ -17,7 +17,7 @@ export default function Dining() {
         />
         <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/40 to-ink/30" />
         <div className="relative z-10 mx-auto w-full max-w-7xl px-5 pb-12 sm:px-8">
-          <h1 className="display neon-text text-7xl sm:text-8xl">{t('dining.header')}</h1>
+          <h1 className="display glow-yellow text-7xl sm:text-8xl">{t('dining.header')}</h1>
           <p className="mb-6 text-lg text-white/80">{t('dining.sub')}</p>
           <button onClick={() => setOrderNote(true)} className="btn-neon">
             {t('dining.order')}
@@ -49,7 +49,7 @@ export default function Dining() {
 
       {/* Menu */}
       <section className="mx-auto max-w-4xl px-5 sm:px-8">
-        <h2 className="display neon-text mb-12 text-center text-6xl">{t('dining.menu')}</h2>
+        <h2 className="display glow-yellow mb-12 text-center text-6xl">{t('dining.menu')}</h2>
 
         <div className="flex flex-col gap-14">
           {menu.map((section) => (

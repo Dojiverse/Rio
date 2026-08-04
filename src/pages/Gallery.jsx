@@ -20,7 +20,7 @@ export default function Gallery() {
 
   return (
     <div className="section-pad pt-28">
-      <h1 className="display neon-text mb-2 text-center text-6xl sm:text-7xl">{t('gallery.header')}</h1>
+      <h1 className="display glow-teal mb-2 text-center text-6xl sm:text-7xl">{t('gallery.header')}</h1>
       <p className="mb-12 text-center text-lg text-muted">{t('gallery.sub')}</p>
 
       <div className="columns-1 gap-4 sm:columns-2 lg:columns-3 [&>button]:mb-4">

@@ -13,7 +13,7 @@ export default function Book() {
 
   return (
     <div className="mx-auto max-w-2xl px-5 pb-24 pt-28 sm:px-8">
-      <h1 className="display neon-text mb-2 text-center text-6xl sm:text-7xl">{t('book.header')}</h1>
+      <h1 className="display glow-red mb-2 text-center text-6xl sm:text-7xl">{t('book.header')}</h1>
       <p className="mb-12 text-center text-lg text-muted">{t('book.sub')}</p>
 
       {sent ? (
